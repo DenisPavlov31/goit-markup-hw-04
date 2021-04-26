@@ -223,7 +223,7 @@ img {
   background-image: linear-gradient(to right,
       var(--hero-overlay-background-color),
       var(--hero-overlay-background-color)),
-    url('../images/Img17.jpg');
+    url('../images/img17.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
