@@ -336,9 +336,7 @@ img {
   background-color: var(--accent-color);
 }
 
-.social-icon {
-  --color4: currentColor;
-}
+
 
 .filter-list {
   display: flex;
