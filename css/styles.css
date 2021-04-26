@@ -405,7 +405,7 @@ img {
 }
 
 .client-logo-icon {
-  --color4: currentColor;
+  --fill: currentColor;
 }
 
 .footer {
