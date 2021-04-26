@@ -223,7 +223,7 @@ img {
   background-image: linear-gradient(to right,
       var(--hero-overlay-background-color),
       var(--hero-overlay-background-color)),
-    url('../images/hero-overlay.jpg');
+    url('../images/Img17.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -329,7 +329,6 @@ img {
   color: var(--primary-icon-color);
 }
 
-.social-icon-link:not(:last-child) {}
 
 .social-icon-link:hover,
 .social-icon-link:focus {
