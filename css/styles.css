@@ -199,7 +199,7 @@ img {
 }
 
 .contacts-icon {
-  --color3: currentColor;
+  fill: currentColor;
   margin-right: 10px;
 }
 
@@ -327,6 +327,7 @@ img {
   align-items: center;
   justify-content: center;
   color: var(--primary-icon-color);
+  fill: currentColor;
 }
 
 
@@ -396,6 +397,7 @@ img {
   border: 1px solid var(--primary-icon-color);
   border-radius: 4px;
   color: var(--primary-icon-color);
+  fill: currentColor;
 }
 
 .clients-list-item .link:hover,
