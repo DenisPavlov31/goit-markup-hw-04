@@ -390,8 +390,8 @@ img {
 
 .clients-list-item .link {
   display: flex;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   justify-content: center;
 
   border: 1px solid var(--primary-icon-color);
