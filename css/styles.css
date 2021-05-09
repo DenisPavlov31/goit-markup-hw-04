@@ -135,10 +135,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   margin-top: calc(-1 * var(--flex-grid-margin));
-  margin-left: calc(-1 * var(--flex-grid-margin));
-}
-
-.flex-grid-item {
+  margin-left: calc(-1 * var(--flex-grid-margin {
   margin-top: var(--flex-grid-margin);
   margin-left: var(--flex-grid-margin);
 }
