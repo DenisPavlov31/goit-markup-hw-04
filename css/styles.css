@@ -136,8 +136,6 @@ img {
   flex-wrap: wrap;
   margin-top: calc(-1 * var(--flex-grid-margin));
   margin-left: calc(-1 * var(--flex-grid-margin));
-  margin-top: var(--flex-grid-margin);
-  margin-left: var(--flex-grid-margin);
 }
 
 .header {
@@ -383,6 +381,8 @@ img {
 
 .clients-list-item {
   flex-basis: calc((100% - 6 * var(--flex-grid-margin)) / 6);
+  margin-top: var(--flex-grid-margin);
+  margin-left: var(--flex-grid-margin);
 }
 
 .clients-list-item .link {
