@@ -134,8 +134,6 @@ img {
 .flex-grid {
   display: flex;
   flex-wrap: wrap;
-  margin-top: calc(-1 * var(--flex-grid-margin));
-  margin-left: calc(-1 * var(--flex-grid-margin));
 }
 
 .header {
@@ -255,8 +253,10 @@ img {
   flex-basis: calc((100% - 4 * var(--flex-grid-margin)) / 4); 
 }
 
-.flex-grid-item .qualities-list-item::not(last-child) {
+.qualities-list-item::not(last-child) {
   margin-right: var(--flex-grid-margin);
+  margin-top: calc(-1 * var(--flex-grid-margin));
+  margin-left: calc(-1 * var(--flex-grid-margin));
 }
 
 .qualities-list-item-title {
@@ -280,10 +280,12 @@ img {
 
 .activities-list-item {
   flex-basis: calc((100% - 3 * var(--flex-grid-margin)) / 3);
+  margin-top: calc(-1 * var(--flex-grid-margin));
+  margin-left: calc(-1 * var(--flex-grid-margin));
 }
 
 .activities-list-item::not(last-child) {
-  margin-right: var(--flex-grid-margin);
+  margin-right: 30px;
 }
 
 .team {
@@ -298,6 +300,8 @@ img {
   background-color: var(--background-primary-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  margin-top: calc(-1 * var(--flex-grid-margin));
+  margin-left: calc(-1 * var(--flex-grid-margin));
 }
 
 .person-label {
@@ -364,6 +368,10 @@ img {
 
 .project-item {
   flex-basis: calc((100% - 3 * var(--flex-grid-margin)) / 3);
+}
+
+.project-item::not(last-child) {
+  margin-right: var(--flex-grid-margin);
 }
 
 .project-link {
