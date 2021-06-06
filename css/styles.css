@@ -252,7 +252,11 @@ img {
 }
 
 .qualities-list-item {
-  flex-basis: calc((100% - 4 * var(--flex-grid-margin)) / 4);
+  flex-basis: calc((100% - 4 * var(--flex-grid-margin)) / 4); 
+}
+
+.flex-grid-item .qualities-list-item::not(last-child) {
+  margin-right: var(--flex-grid-margin);
 }
 
 .qualities-list-item-title {
@@ -276,6 +280,10 @@ img {
 
 .activities-list-item {
   flex-basis: calc((100% - 3 * var(--flex-grid-margin)) / 3);
+}
+
+.activities-list-item::not(last-child) {
+  margin-right: var(--flex-grid-margin);
 }
 
 .team {
