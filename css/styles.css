@@ -255,10 +255,8 @@ img {
   flex-basis: calc((100% - 4 * var(--flex-grid-margin)) / 4); 
 }
 
-.qualities-list-item::not(last-child) {
+.qualities-list-item:not(:last-child) {
   margin-right: var(--flex-grid-margin);
-  margin-top: calc(-1 * var(--flex-grid-margin));
-  margin-left: calc(-1 * var(--flex-grid-margin));
 }
 
 .qualities-list-item-title {
@@ -286,8 +284,8 @@ img {
   margin-left: calc(-1 * var(--flex-grid-margin));
 }
 
-.activities-list-item::not(last-child) {
-  margin-right: 30px;
+.activities-list-item:not(:last-child) {
+  margin-right: var(--flex-grid-margin);
 }
 
 .team {
@@ -305,6 +303,10 @@ img {
   margin-top: calc(-1 * var(--flex-grid-margin));
   margin-left: calc(-1 * var(--flex-grid-margin));
 }
+
+.team-list-item:not(:last-child) {
+  margin-right: var(--flex-grid-margin);
+} 
 
 .person-label {
   padding: 30px 32px;
@@ -370,10 +372,12 @@ img {
 
 .project-item {
   flex-basis: calc((100% - 3 * var(--flex-grid-margin)) / 3);
+  word-wrap:nowrap;
 }
 
-.project-item::not(last-child) {
+.project-item:not(:last-child) {
   margin-right: var(--flex-grid-margin);
+  margin-bottom: var(--flex-grid-margin);
 }
 
 .project-link {
