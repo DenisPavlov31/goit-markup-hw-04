@@ -285,7 +285,7 @@ img {
 }
 
 .activities-list-item:not(:last-child) {
-  margin-right: var(--flex-grid-margin);
+  margin-right:60px;
 }
 
 .team {
@@ -305,7 +305,7 @@ img {
 }
 
 .team-list-item:not(:last-child) {
-  margin-right: var(--flex-grid-margin);
+  margin-right: 60px;
 } 
 
 .person-label {
