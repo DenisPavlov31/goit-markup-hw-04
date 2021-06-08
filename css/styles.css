@@ -369,7 +369,7 @@ img {
 }
 
 .project-item {
-  flex-basis: calc((100% - 2 * var(--flex-grid-margin)) / 3);
+  flex-basis: calc((100% - 3 * var(--flex-grid-margin)) / 3);
   word-wrap:nowrap;
 }
 
