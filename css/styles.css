@@ -58,8 +58,6 @@ img {
 .container {
   width: 1200px;
   margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .visually-hidden {
@@ -134,8 +132,6 @@ img {
 .flex-grid {
   display: flex;
   flex-wrap: wrap;
-  margin-top: var(--flex-grid-margin);
-  margin-left: var(--flex-grid-margin);
 }
 
 .header {
@@ -279,13 +275,11 @@ img {
 }
 
 .activities-list-item {
-  flex-basis: calc((100% - 3 * var(--flex-grid-margin)) / 3);
-  margin-top: calc(-1 * var(--flex-grid-margin));
-  margin-left: calc(-1 * var(--flex-grid-margin));
+  flex-basis: calc((100% - 2 * var(--flex-grid-margin)) / 3);
 }
 
 .activities-list-item:not(:last-child) {
-  margin-right:60px;
+  margin-right: var(--flex-grid-margin);
 }
 
 .team {
@@ -296,16 +290,14 @@ img {
 }
 
 .team-list-item {
-  flex-basis: calc((100% - 4 * var(--flex-grid-margin)) / 4);
+  flex-basis: calc((100% - 3 * var(--flex-grid-margin)) / 4);
   background-color: var(--background-primary-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  margin-top: calc(-1 * var(--flex-grid-margin));
-  margin-left: calc(-1 * var(--flex-grid-margin));
 }
 
 .team-list-item:not(:last-child) {
-  margin-right: 60px;
+  margin-right: 30px;
 } 
 
 .person-label {
@@ -363,21 +355,31 @@ img {
   margin-right: 8px;
 }
 
+
 .project-label {
   padding: 20px 24px;
   border-right: 1px solid var(--portfolio-border-color);
   border-bottom: 1px solid var(--portfolio-border-color);
   border-left: 1px solid var(--portfolio-border-color);
+  max-width: 370px;
+}
+
+.project-item:nth-child(3n) {
+  margin-right: 0px;
 }
 
 .project-item {
-  flex-basis: calc((100% - 3 * var(--flex-grid-margin)) / 3);
+  flex-basis: calc((100% - 2 * var(--flex-grid-margin)) / 3);
   word-wrap:nowrap;
 }
 
 .project-item:not(:last-child) {
   margin-right: var(--flex-grid-margin);
   margin-bottom: var(--flex-grid-margin);
+}
+
+.project-image {
+  margin-right: 0px;
 }
 
 .project-link {
