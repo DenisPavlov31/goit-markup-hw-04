@@ -364,7 +364,11 @@ img {
   max-width: 370px;
 }
 
-.project-item:nth-child(3n) {
+.flex-grid-item.project-item:nth-child(n+7) {
+  margin-bottom: 0px;
+}
+
+.flex-grid-item.project-item:nth-child(3n) {
   margin-right: 0px;
 }
 
