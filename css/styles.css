@@ -58,6 +58,7 @@ img {
 .container {
   width: 1200px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 .visually-hidden {
@@ -248,7 +249,7 @@ img {
 }
 
 .qualities-list-item {
-  flex-basis: calc((100% - 4 * var(--flex-grid-margin)) / 4); 
+  flex-basis: calc((100% - 3 * var(--flex-grid-margin)) / 4); 
 }
 
 .qualities-list-item:not(:last-child) {
@@ -373,7 +374,7 @@ img {
 }
 
 .project-item {
-  flex-basis: calc((100% - 3 * var(--flex-grid-margin)) / 3);
+  flex-basis: calc((100% - 2 * var(--flex-grid-margin)) / 3);
   word-wrap:nowrap;
 }
 
